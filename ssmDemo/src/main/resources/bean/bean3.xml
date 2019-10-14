@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="meeting" class="bean.Meeting">
+    <property name="title" value="a"/>
+    <property name="bossList">
+        <list>
+            <ref bean="boss1"/>
+            <ref bean="boss2"/>
+            <ref bean="boss3"/>
+        </list>
+    </property>
+</bean>
+</beans>

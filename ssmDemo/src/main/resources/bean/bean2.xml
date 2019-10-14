@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="car1" class="bean.Car">
+        <property name="brand" value="宝马"></property>
+        <property name="color" value="黑色"></property>
+        <property name="output" value="90"></property>
+    </bean>
+    <bean id="car2" class="bean.Car">
+        <property name="brand" value="奥迪"></property>
+        <property name="color" value="红色"></property>
+        <property name="output" value="80"></property>
+    </bean>
+    <bean id="car3" class="bean.Car">
+        <property name="brand" value="大众"></property>
+        <property name="color" value="银色"></property>
+        <property name="output" value="90"></property>
+    </bean>
+</beans>
